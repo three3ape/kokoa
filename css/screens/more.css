@@ -1,0 +1,31 @@
+.more-screen {
+  margin-top: 120px;
+  padding: 0px var(--side-space);
+}
+.more1,
+.more2 {
+  margin: 45px 0px;
+}
+.more1-dot {
+  position: absolute;
+  left: 190px;
+  bottom: 65px;
+}
+.more-suggestions {
+  margin-top: 15px;
+  padding-top: 20px;
+  border-top: var(--border-grey);
+}
+.more-suggestions__header {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+.more3 {
+  padding: 0px 10px;
+}
+.more3 span {
+  color: var(--font-grey);
+}

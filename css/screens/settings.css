@@ -1,0 +1,27 @@
+.settings-screen {
+  margin-top: 120px;
+  /* padding: 0px var(--side-space); */
+}
+
+.setting-list_first {
+  padding-bottom: 20px;
+}
+.setting-list_second {
+  padding-top: 20px;
+}
+.setting-list_second {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.setting-list_first li,
+.setting-list_second li {
+  padding: 20px;
+  border-bottom: var(--border-grey);
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.setting-list_first li:last-child {
+  border: none;
+}

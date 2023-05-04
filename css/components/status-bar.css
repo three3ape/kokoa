@@ -1,4 +1,5 @@
 .status-bar {
+  z-index: 2;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -6,6 +7,13 @@
   width: 100%;
   box-sizing: border-box;
   padding: 5px 3px;
+  font-weight: 600;
+}
+.status-bar__settings {
+  background-color: white;
+}
+.status-bar__chat {
+  background-color: #abc1d1;
 }
 .status-bar__column {
   width: 33%;

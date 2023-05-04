@@ -1,0 +1,123 @@
+#body-chat {
+  background-color: #abc1d1;
+  height: 11000vh;
+}
+.chat-screen {
+  margin-top: 100px;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chat__date {
+  color: white;
+  background-color: #92a4b2;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.chat__message1,
+.chat__message2 {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+}
+.chat__message1 {
+  justify-content: flex-start;
+}
+
+.chat__message1 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.chat__message__name {
+  display: block;
+  margin-bottom: 5px;
+  opacity: 0.6;
+  font-size: 13px;
+  font-weight: 600;
+}
+.chat__message__content,
+.my-message__content {
+  display: flex;
+  align-items: flex-end;
+}
+.chat__message__content-balloon1 {
+  background-color: white;
+  padding: 8px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.chat__message__content-time {
+  opacity: 0.6;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0px 5px;
+}
+.chat__message2 {
+  justify-content: flex-end;
+}
+.chat__message__content-balloon2 {
+  background-color: var(--yellow);
+  padding: 8px;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.field {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.field__column1 {
+  width: 6%;
+}
+.field i:not(button i) {
+  opacity: 0.5;
+}
+.field__column2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 94%;
+}
+.field input {
+  height: 30px;
+  padding-left: 15px;
+  width: 98%;
+  border: var(--border-grey);
+  border-radius: 20px;
+}
+.field__column2 > i,
+.field__column2 button {
+  position: absolute;
+  right: 0;
+  /* top: 9px; */
+}
+.field__column2 > i {
+  right: 50px;
+}
+.field__column2 button {
+  /* top: 2px; */
+  right: 3px;
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}

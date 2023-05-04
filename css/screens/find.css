@@ -1,0 +1,97 @@
+.find-screen {
+  margin-top: 120px;
+  padding: 0px var(--side-space);
+}
+
+.find-recommend {
+  border-top: var(--border-grey);
+  border-bottom: var(--border-grey);
+  margin: 15px 0px;
+  padding: 15px 0px;
+}
+.find-recommend__header,
+.find-openchat__header {
+  font-size: 15px;
+  color: var(--font-grey);
+  font-weight: 600;
+}
+.find-recommend div {
+  margin: 100px 0px;
+  text-align: center;
+  color: var(--font-grey);
+  font-weight: 600;
+}
+.find-openchat__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.find-openchat__post {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: var(--border-grey);
+}
+.find-openchat__post__column:first-child {
+  display: flex;
+  flex-direction: column;
+}
+.find-openchat__post__column-title {
+  font-weight: 600;
+  margin-top: 20px;
+}
+.find-openchat__post__column-hashtag {
+  text-transform: uppercase;
+  color: var(--font-grey);
+  font-weight: 600;
+
+  margin-top: 7px;
+}
+.find-openchat__post__column__members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  color: var(--font-grey);
+  font-size: 15px;
+  font-weight: 600;
+}
+.find-openchat__post__column__members img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.find-openchat__post__column__members .divider {
+  width: 2px;
+  height: 15px;
+  margin: 0px 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.find-openchat__post__column__members-status {
+  color: #ff6ac3;
+}
+.find-openchat__post__column:last-child {
+  position: relative;
+}
+.find-openchat__post__column-heart {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 8px;
+  left: 40px;
+  color: white;
+  font-size: 12px;
+  padding: 4px 9px;
+  border-radius: 9px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.find-openchat__post__column-heart i {
+  margin-right: 5px;
+  font-size: 2px;
+}
+.find-openchat__post__column:last-child img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}

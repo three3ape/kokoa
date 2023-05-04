@@ -6,11 +6,38 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/icon-row.css";
+@import "components/extra-screen-header.css";
 /* Screens */
 @import "screens/welcome-header.css";
 @import "screens/login-form.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
   font-family: "Open Sans", sans-serif;
+}
+.main-screen {
+  padding: 0px var(--side-space);
+}
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  color: white;
+  height: 25px;
+  width: 25px;
+  border-radius: 12.5px;
+}
+.dot {
+  background-color: tomato;
+  display: flex;
+  height: 5px;
+  width: 5px;
+  border-radius: 2.5px;
 }

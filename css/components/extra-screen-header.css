@@ -1,0 +1,36 @@
+.extra-header {
+  z-index: 1;
+  position: fixed;
+  top: 26px;
+  width: 100%;
+  padding: 14px var(--side-space) 20px var(--side-space);
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+.extra-header__settings {
+  background-color: white;
+}
+.extra-header__chat {
+  background-color: #abc1d1;
+}
+.extra-header__title {
+  font-size: 25px;
+  font-weight: 700;
+}
+.extra-header__column {
+  display: flex;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+.extra-header__column:first-child {
+  justify-content: flex-start;
+}
+.extra-header__column:last-child {
+  justify-content: flex-end;
+}
+.extra-header__column span:last-child {
+  margin-left: 20px;
+}
