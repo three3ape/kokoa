@@ -12,6 +12,21 @@
   display: flex;
   justify-content: space-around;
 }
+.nav__li {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: navAnimation 0.8s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+.nav__li:nth-child(2) {
+  animation-delay: 0.7s;
+}
+.nav__li:nth-child(3) {
+  animation-delay: 0.8s;
+}
+.nav__li:last-child {
+  animation-delay: 1s;
+}
 .nav__link {
   position: relative;
 }
@@ -19,6 +34,7 @@
   position: absolute;
   left: 23px;
   bottom: 15px;
+  animation: notificationAnimation 2s ease-in-out;
 }
 
 .nav__dot {

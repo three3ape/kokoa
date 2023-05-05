@@ -89,6 +89,10 @@
   margin-right: 5px;
   font-size: 2px;
 }
+.find-openchat__post__column-heart i:hover {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
 .find-openchat__post__column:last-child img {
   height: 100px;
   width: 100px;
